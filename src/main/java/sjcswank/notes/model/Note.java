@@ -1,4 +1,4 @@
-package sjcswank.notes;
+package sjcswank.notes.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
