@@ -19,13 +19,11 @@ public class User {
     @Id
     private ObjectId id;
     private String username;
-    private String password;
     @DocumentReference
     private List<Note> noteIds;
 
-    public User(String username, String password) {
+    public User(String username) {
         this.username = username;
-        this.password = password;
         this.noteIds = new ArrayList<Note>();
     }
 
